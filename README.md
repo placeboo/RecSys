@@ -6,6 +6,7 @@ This repo serves as a study collection of resources for the RecSys.
 
 - [Papers](#papers)
 - [Blogs](#blogs)
+- [Other techniques](#other-techniques)
 
 ## Papers
 - Zhang, S., Yao, L., Sun, A., & Tay, Y. (2019). Deep Learning based Recommender System: A Survey and New Perspectives. https://doi.org/10.1145/3285029
@@ -15,3 +16,8 @@ This repo serves as a study collection of resources for the RecSys.
 ## Blogs
 - [Candidate Generation Using a Two Tower Approach With Expedia Group Traveler Data](https://medium.com/expedia-group-tech/candidate-generation-using-a-two-tower-approach-with-expedia-group-traveler-data-ca6a0dcab83e)
 >This blog post, brought by Expedia Group Tech, introduces an innovative two-tower approach for candidate generation within recommendation systems. The two-tower architecture is widely utilized in recommendation systems, comprising a neural network structure consisting of two key components: the query tower and the candidate tower. The query tower encodes the user's query, while the candidate tower encodes the candidate items. These towers are then integrated to generate a score reflecting the relevance of the candidate items to the user's query. Demonstrated to be highly effective across various recommendation tasks such as click prediction, item recommendation, and ranking, the two-tower approach offers promising results. Additionally, the blog provides insightful implementation details along with dataset and code samples. [Repo](https://github.com/ExpediaGroup/two-tower-lodging-candidate-generation)
+
+## Other techniques
+- [Neural Network Embeddings Explained](https://towardsdatascience.com/neural-network-embeddings-explained-4d028e6f0526)
+> This blog explains the concept of neural network embeddings, their importance, and the process of learning them. It uses a practical example to illustrate these concepts: creating a book recommendation system by representing all books on Wikipedia as vectors.
+- [Practical Recommendation System 01 : Embedding Techniques](https://medium.com/數學-人工智慧與蟒蛇/推薦系統實務-一-embedding-技巧-a4cc69775b18)
