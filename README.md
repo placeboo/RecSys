@@ -26,7 +26,11 @@ This repo serves as a study collection of resources for the Recommender System.
 > This blog gives a tour of the most import modeling breakthrough. Papers also cited, which are worth reading.
 - [Candidate Generation Using a Two Tower Approach With Expedia Group Traveler Data](https://medium.com/expedia-group-tech/candidate-generation-using-a-two-tower-approach-with-expedia-group-traveler-data-ca6a0dcab83e)
 >This blog post, brought by Expedia Group Tech, introduces an innovative two-tower approach for candidate generation within recommendation systems. The two-tower architecture is widely utilized in recommendation systems, comprising a neural network structure consisting of two key components: the query tower and the candidate tower. The query tower encodes the user's query, while the candidate tower encodes the candidate items. These towers are then integrated to generate a score reflecting the relevance of the candidate items to the user's query. Demonstrated to be highly effective across various recommendation tasks such as click prediction, item recommendation, and ranking, the two-tower approach offers promising results. Additionally, the blog provides insightful implementation details along with dataset and code samples. [Repo](https://github.com/ExpediaGroup/two-tower-lodging-candidate-generation)
-
+- NVDA Email Recommendar System Series
+  - [How to build a recommender system: A real Use Case to personalize E-Mail campaigns](https://medium.com/nvidia-merlin/how-to-build-a-recommender-system-a-real-use-case-to-personalize-e-mail-campaigns-2587fdc3159d)
+  > Brief introducation of the use case where both items and users are cold-start
+  - [Solving the Cold-Start Problem using Two-Tower Neural Networks for NVIDIA’s E-Mail Recommender Systems](https://medium.com/nvidia-merlin/solving-the-cold-start-problem-using-two-tower-neural-networks-for-nvidias-e-mail-recommender-2d5b30a071a4)
+  > Use two-tower architecture. Consider the cold start problem, they impletment the trick that not use the item and user IDs and instead select the only features. Code example by using NVIDIA Merlin library.
 ### Debias
 - [Correct Sampling Bias for Recommender Systems](https://medium.com/towards-data-science/correct-sampling-bias-for-recommender-systems-d2f6d9fdddec)
 > A high level explanation of method in Paper " Sampling-bias-corrected neural modeling for large corpus item recommendations."
