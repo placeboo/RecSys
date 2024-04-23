@@ -32,6 +32,10 @@ This repo serves as a study collection of resources for the Recommender System.
 > A high level explanation of method in Paper " Sampling-bias-corrected neural modeling for large corpus item recommendations."
 - [The Rise of Two-Tower Models in Recommender Systems](https://medium.com/towards-data-science/the-rise-of-two-tower-models-in-recommender-systems-be6217494831) 
 > A high level explanation of debias method in Paper "PAL: A position-bias aware learning framework for CTR prediction in live recommender systems"
+
+### Implementations
+- [MovieLens-1M Deep Dive — Part II, Tensorflow Recommender](https://towardsdatascience.com/movielens-1m-deep-dive-part-ii-tensorflow-recommenders-4ca358cc886e)
+> Implement two-tower recomnender system using TensorFlow Recommenders on MovieLens-1M dataset.
 ## Other techniques
 
 ### Embedding
