@@ -24,8 +24,12 @@ OCCUPATION_MAP = {
     20: "writer"
 }
 
-RATING_COLUMN_NAMES = ['user_id', 'movie_id', 'rating', 'timestamp']
-MOVIE_COLUMN_NAMES = ['movie_id', 'title', 'genres']
-USER_COLUMN_NAMES = ['user_id', 'gender', 'age', 'occupation', 'zip_code']
+USER_ID_NAME = 'user_id'
+MOVIE_ID_NAME = 'movie_id'
+RATING_NAME = 'rating'
+RATING_COLUMN_NAMES = [USER_ID_NAME, MOVIE_ID_NAME, RATING_NAME, 'timestamp']
+MOVIE_COLUMN_NAMES = [MOVIE_ID_NAME, 'title', 'genres', 'year']
+USER_COLUMN_NAMES = [USER_ID_NAME, 'gender', 'age', 'occupation', 'zip_code']
+
 
 
