@@ -1,10 +1,11 @@
 # RecSys Study Collection
 
-This repo serves as a study collection of resources for the Recommender System.
+This repo serves as my study collection of resources for the Recommender System.
 
 ## Table of Contents
 
 - [Papers](#papers)
+  - [Deep Learning based Recommender System](#deep-learning-based-recommender-system)
 - [Blogs](#blogs)
   - [Deep Learning based Recommender System](#deep-learning-based-recommender-system)
   - [Debias](#debias)
@@ -19,6 +20,8 @@ This repo serves as a study collection of resources for the Recommender System.
 >This paper introduces a deep neural network architecture for YouTube recommendations, which is a large-scale and real-world recommendation system. The architecture consists of two components: candidate generation and ranking. The candidate generation component is responsible for selecting a small set of videos from a large pool of candidates, while the ranking component ranks these candidates to generate the final recommendations. The candidate generation component uses a deep neural network to predict the probability of a user watching a video, while the ranking component uses another deep neural network to predict the click-through rate of the videos. The paper demonstrates that the proposed architecture significantly improves the performance of the YouTube recommendation system compared to traditional methods.
 - Yi, X., Yang, J., Hong, L., Cheng, D. Z., Heldt, L., Kumthekar, A., Zhao, Z., Wei, L., & Chi, E. (2019). Sampling-bias-corrected neural modeling for large corpus item recommendations. RecSys 2019 - 13th ACM Conference on Recommender Systems, 269–277. https://doi.org/10.1145/3298689.3346996
 - Guo, H., Yu, J., Liu, Q., Tang, R., & Zhang, Y. (2019). PAL: A position-bias aware learning framework for CTR prediction in live recommender systems. RecSys 2019 - 13th ACM Conference on Recommender Systems, 452–456. https://doi.org/10.1145/3298689.3347033
+
+### Bandit for RecSys
 
 ## Blogs
 ### Deep Learning based Recommender System
@@ -36,7 +39,9 @@ This repo serves as a study collection of resources for the Recommender System.
 > A high level explanation of method in Paper " Sampling-bias-corrected neural modeling for large corpus item recommendations."
 - [The Rise of Two-Tower Models in Recommender Systems](https://medium.com/towards-data-science/the-rise-of-two-tower-models-in-recommender-systems-be6217494831) 
 > A high level explanation of debias method in Paper "PAL: A position-bias aware learning framework for CTR prediction in live recommender systems"
-
+### Bandit for RecSys
+- [Bandits for Recommender Systems](https://eugeneyan.com/writing/bandits/#:~:text=If%20new%20items%20are%20constantly,cost%20while%20recommending%20suboptimal%20items.)
+> Explain when to use Bandit. Compared different Bandit algorithms. Provide industrial example. Provide references.
 ### Implementations
 - [MovieLens-1M Deep Dive — Part II, Tensorflow Recommender](https://towardsdatascience.com/movielens-1m-deep-dive-part-ii-tensorflow-recommenders-4ca358cc886e)
 > Implement two-tower recomnender system using TensorFlow Recommenders on MovieLens-1M dataset.
